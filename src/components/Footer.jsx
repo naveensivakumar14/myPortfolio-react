@@ -48,7 +48,7 @@ function Footer() {
 
     {/* <!--Copyright section--> */}
     <div
-      className="bg-[#021526] text-white  pb-6 text-cente dark:bg-neutral-700 dark:text-neutral-200">
+      className="bg-[#021526] text-white  pb-6 text-cente ">
       © 2024 Copyright:
       <a
         className="text-white"
