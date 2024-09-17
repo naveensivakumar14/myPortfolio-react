@@ -49,11 +49,11 @@ function Footer() {
     {/* <!--Copyright section--> */}
     <div
       className="bg-[#021526] text-white  pb-6 text-cente dark:bg-neutral-700 dark:text-neutral-200">
-      © 2023 Copyright:
+      © 2024 Copyright:
       <a
-        className="text-white dark:text-neutral-400"
-        href="#"
-      >TW Elements</a>
+        className="text-white"
+        href="https://www.linkedin.com/in/naveenksivakumar/"
+      >Naveenkumar</a>
     </div>
   </footer>
   );
