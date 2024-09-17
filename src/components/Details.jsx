@@ -4,7 +4,7 @@ function Details(){
 
     return(
         <>
-        <section class="bg-white dark:bg-gray-900">
+        <section class="bg-white">
             <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                 <div class="font-light text-black sm:text-lg  ">
                     <h2 class="mb-4 text-2xl text-center md:text-4xl md:text-left tracking-tight font-semibold text-gray-900 dark:text-white">Education and Experience</h2>
