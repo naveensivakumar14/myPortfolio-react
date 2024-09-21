@@ -75,6 +75,7 @@ button:focus-visible {
 
 
 
+
 /*-----------Navbar------*/
 
 .nav-items{
@@ -97,6 +98,21 @@ button:focus-visible {
   height: 80vh;
 }
 
+/* Slick styles */
+.slick-slide div{
+  margin: 0 10px;
+}
+
+.slick-dots li button:before {
+  color: white; /* Change the color of the dots */
+}
+
+.slick-dots li.slick-active button:before {
+  color: white; /* Change the color of the active dot */
+}
+
+
+
 /*--------Responsive-----------*/
 @media screen and (max-width:800px){
   .nav-items{
@@ -104,5 +120,8 @@ button:focus-visible {
   }
   .menu-icon{
     display: block;
+  }
+  .slick-slide div{
+    margin: 0;
   }
 }

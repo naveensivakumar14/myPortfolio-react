@@ -1,27 +1,29 @@
-import { useState } from 'react'
+//Importing react components
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
 import Details from './components/Details'
+import MultipleItems from './components/Works'
 
+import Footer from './components/Footer'
 
 
 import './App.css'
-import Footer from './components/Footer'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
+  //apperance App
   return (
     <>
       <Navbar/>
       <Hero/>
       <About/>
       <Skills/>
+      <MultipleItems/>
       <Details/>
       <Footer/>
-
     </>
   )
 }
