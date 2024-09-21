@@ -49,9 +49,9 @@ function Footer() {
     {/* <!--Copyright section--> */}
     <div
       className="bg-[#021526] text-white  pb-6 text-cente ">
-      © 2024 Copyright:
+      Design & Developed by 
       <a
-        className="text-white"
+        className="text-white ml-3 text-lg"
         href="https://www.linkedin.com/in/naveenksivakumar/"
       >Naveenkumar</a>
     </div>

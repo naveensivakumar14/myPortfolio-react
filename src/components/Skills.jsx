@@ -16,14 +16,22 @@ import notionIcon from '../assets/images/Notion-icon.png'
 import firebsIcon from '../assets/images/Firebase.png'
 
 
+//Animation on Scroll
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 
 
 function Skills(){
+    
+    //useEffect hook for aos 
+   useEffect(()=>{
+    AOS.init({duration:2000});
+    },[])
 
-
-
-        const frontendSkill = [
+    //Icon Array of Objects
+    const frontendSkill = [
             {
                 id: 1,
                 title: "HTML",
@@ -105,31 +113,26 @@ function Skills(){
                 imageUrl: firebsIcon,
             },
 
-        ];
+    ];
 
       
 
-
-
     return(
-        <div className='bg-[#F5F5F5]'>
+        <div className='bg-[#F5F5F5]' data-aos="fade-up">
          <h1 className='text-2xl pt-6 font-bold text-center md:text-4xl'>Skills</h1>
-        
             <div className='flex flex-col p-6 justify-center items-center md:flex-row md:justify-center '>
-          
                 <div className="p-4 my-2 mx-2  grid grid-cols-4 gap-3 md:w-[40%] ">
                     {frontendSkill.map((item) => (
-                    <div key={item.id} className="p-4 flex flex-col justify-center items-center transform hover:scale-110">
-                        <img src={item.imageUrl} alt={item.title} className="w-full z-0 h-auto md:w-[60%]" />
-
-                        <h2 className=" mt-1  text-xs md:font-semibold ">{item.title}</h2>
-
+                    <div key={item.id} className="p-4 flex flex-col justify-center items-center transform hover:scale-125"  >
+                        <img src={item.imageUrl} alt={item.title} className="w-full z-0 h-auto md:w-[60%]" data-aos="zoom-in-up"/>
+                        <h2 className=" mt-1  text-xs md:font-semibold" data-aos="zoom-in-up">{item.title}</h2>
                     </div>
                     ))}
                 </div>
             </div> 
 
-            {/* <div className="carousel rounded-box flex gap-2 py-6">
+            {/* DAISY UI tailwind library component
+            <div className="carousel rounded-box flex gap-2 py-6">
                 <div className="carousel-item">
                     <img
                     src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
@@ -162,7 +165,6 @@ function Skills(){
                 </div>
                 
             </div> */}
-
 
        </div>
        
