@@ -26,7 +26,7 @@ function Hero(){
                 <h1 className="text-4xl p-2 font-bold md:text-6xl">Naveenkumar</h1>
                 
 
-                <h3 className="text-xl p-2 font-bold md:text-2xl ">Web Developer</h3>
+                <h3 className="text-xl p-2 font-bold md:text-2xl ">I am a Web Developer</h3>
                 
             </div>
 
