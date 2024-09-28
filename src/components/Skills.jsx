@@ -21,102 +21,34 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
-
-
 function Skills(){
     
-    //useEffect hook for aos 
+//useEffect hook for aos 
    useEffect(()=>{
     AOS.init({duration:2000});
     },[])
 
     //Icon Array of Objects
     const frontendSkill = [
-            {
-                id: 1,
-                title: "HTML",
-                imageUrl: htmlIcon,
-            },
-            {
-                id: 2,
-                title: "CSS",
-                imageUrl: cssIcon,
-            },
-            {
-                id: 3,
-                title: "Bootstrap",
-                imageUrl: BootIcon,
-            },
-            {
-                id: 4,
-                title: "Tailwind",
-                imageUrl: TailwindIcon,
-            },
-            {
-                id: 5,
-                title: "JavaScript",
-                imageUrl: jsIcon,
-            },
-            {
-                id: 6,
-                title: "React",
-                imageUrl: reactIcon,
-            },
-            {
-                id: 7,
-                title: "Node",
-                imageUrl: nodeIcon,
-            },
-            {
-                id: 8,
-                title: "Express",
-                imageUrl: expressIcon,
-            },
-            {
-                id: 9,
-                title: "MongoDB",
-                imageUrl: mongoIcon,
-            },
-            {
-                id: 10,
-                title: "Git",
-                imageUrl: gitIcon,
-            },
-            {
-                id: 11,
-                title: "GitHub",
-                imageUrl: githubIcon,
-            },
-            {
-                id: 12,
-                title: "Vercel",
-                imageUrl: verIcon,
-            },
-            {
-                id: 13,
-                title: "Postman",
-                imageUrl: postIcon,
-            },
-            {
-                id: 14,
-                title: "VScode",
-                imageUrl: vsIcon,
-            },
-            {
-                id: 15,
-                title: "Notion",
-                imageUrl: notionIcon,
-            },
-            {
-                id: 16,
-                title: "FireBase",
-                imageUrl: firebsIcon,
-            },
-
+            { id: 1, title: "HTML", imageUrl: htmlIcon },
+            { id: 2, title: "CSS", imageUrl: cssIcon },
+            { id: 3, title: "Bootstrap", imageUrl: BootIcon },
+            { id: 4, title: "Tailwind", imageUrl: TailwindIcon },
+            { id: 5, title: "JavaScript", imageUrl: jsIcon },
+            { id: 6, title: "React", imageUrl: reactIcon },
+            { id: 7, title: "Node", imageUrl: nodeIcon },
+            { id: 8, title: "Express", imageUrl: expressIcon },
+            { id: 9, title: "MongoDB", imageUrl: mongoIcon },
+            { id: 10, title: "Git", imageUrl: gitIcon },
+            { id: 11, title: "GitHub", imageUrl: githubIcon },
+            { id: 12, title: "Vercel", imageUrl: verIcon },
+            { id: 13, title: "Postman", imageUrl: postIcon },
+            { id: 14, title: "VScode", imageUrl: vsIcon },
+            { id: 15, title: "Notion", imageUrl: notionIcon },
+            { id: 16, title: "FireBase", imageUrl: firebsIcon },
     ];
 
       
-
     return(
         <div className='bg-[#F5F5F5]' data-aos="fade-up">
          <h1 className='text-2xl pt-6 font-bold text-center md:text-4xl'>Skills</h1>
@@ -130,42 +62,6 @@ function Skills(){
                     ))}
                 </div>
             </div> 
-
-            {/* DAISY UI tailwind library component
-            <div className="carousel rounded-box flex gap-2 py-6">
-                <div className="carousel-item">
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-                    alt="Burger" />
-                </div>
-                <div className="carousel-item">
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-                    alt="Burger" />
-                </div>
-                <div className="carousel-item">
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-                    alt="Burger" />
-                </div>
-                <div className="carousel-item">
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-                    alt="Burger" />
-                </div>
-                <div className="carousel-item">
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
-                    alt="Burger" />
-                </div>
-                <div className="carousel-item">
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
-                    alt="Burger" />
-                </div>
-                
-            </div> */}
-
        </div>
        
     )
