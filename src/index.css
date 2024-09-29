@@ -126,7 +126,7 @@ button:focus-visible {
   }
 }
 .animate-slide {
-  animation: slide 5s infinite; /* Repeat the animation infinitely */
+  animation: slide 5s ease-in-out; /* Repeat the animation infinitely */
 }
 
 
