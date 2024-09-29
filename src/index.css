@@ -142,19 +142,5 @@ button:focus-visible {
     margin: 0;
   }
 
-  /* For lottie cycle aniamtion on small screens*/
-  @keyframes slide {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(100px); /* Moves 100px right */
-    }
-    100% {
-      transform: translateX(400px); /* Back to original position */
-    }
-  }
-  .animate-slide {
-    animation: slide 5s infinite; /* Repeat the animation infinitely */
-  }
+ 
 }
