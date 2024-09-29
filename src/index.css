@@ -113,6 +113,22 @@ button:focus-visible {
 }
 
 
+/* Lottiee Cycle  */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px); /* Moves 100px right */
+  }
+  100% {
+    transform: translateX(500px); /* Back to original position */
+  }
+}
+.animate-slide {
+  animation: slide 5s infinite; /* Repeat the animation infinitely */
+}
+
 
 /*--------Responsive-----------*/
 @media screen and (max-width:800px){
@@ -124,5 +140,21 @@ button:focus-visible {
   }
   .slick-slide div{
     margin: 0;
+  }
+
+  /* For lottie cycle aniamtion on small screens*/
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px); /* Moves 100px right */
+    }
+    100% {
+      transform: translateX(400px); /* Back to original position */
+    }
+  }
+  .animate-slide {
+    animation: slide 5s infinite; /* Repeat the animation infinitely */
   }
 }

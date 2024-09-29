@@ -5,11 +5,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Details from './components/Details'
 import MultipleItems from './components/Works'
-
 import Footer from './components/Footer'
-
-
-
 
 import './App.css'
 

@@ -1,11 +1,11 @@
 import heroimg from "../assets/images/heroimg.jpg";  // Update the extension accordingly
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
+import "../index.css"
 
 import Resume from "../assets/images/Naveen S.pdf"
+
+import Lottie from "lottie-react";
+import Cycle from "../Cycle.json";
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -16,33 +16,30 @@ function Hero(){
 
     //useEffect hook for aos 
    useEffect(()=>{
-    AOS.init({duration:2000});
+    AOS.init({duration:3000});
 },[])
 
 
     return(
 
-        <div className=" bg-[#F5F5F5]  py-10 flex flex-col justify-evenly items-center md:h-screen md:flex-row md:justify-center" data-aos="fade-up">
+        <div className=" bg-[#F5F5F5] h-screen flex flex-col justify-evenly items-center md:h-screen md:flex-row md:justify-center">
 
-            <div className="w-[80%] md:w-1/2 ">
-                <p className="text-2xl p-2 font-bold">Hi, I am</p>
-                <h1 className="text-4xl p-2 font-bold md:text-6xl">Naveenkumar</h1>
-<<<<<<< HEAD
-                <h3 className="text-xl p-2 font-bold md:text-2xl ">MERN Stack Developer</h3>
-                {/* <button className="bg-[#16423C] text-white border-none rounded-md px-2 py-1"></button> */}
-                <button type="button" class="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center ml-2 me-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800"><a href={Resume} download='Naveenkumar'>Resume</a></button>
-=======
-                
-
-                <h3 className="text-xl p-2 font-bold md:text-2xl ">I am a Web Developer</h3>
-                
->>>>>>> c8f2bea066cb22784fe8049a2bae5c20ac33c78e
+            <div className="w-28 animate-slide  absolute top-[50%] left-[10%] md:w-40 md:top-[30%] md:left-[15%]">
+                <Lottie loop={true} animationData={Cycle}/>
+            </div>
+            
+            <div className="w-[80%] md:w-1/2 " data-aos="fade-up">
+                <p className="text-xl p-2 font-bold">Hi, I am</p>
+                <h1 className="text-3xl p-2 font-bold md:text-6xl">Naveenkumar</h1>
+                <h3 className=" p-2 font-bold md:text-2xl ">I build things for Web</h3>
+                <button type="button" class="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center ml-2 me-2 my-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800"><a href={Resume} download='Naveenkumar'>Resume</a></button>
             </div>
 
-
-            <div className="w-[80%] h-auto my-5 rounded-sm md:w-1/3">
+            <div className="w-[80%] h-auto my-5 rounded-sm md:w-1/3" data-aos="fade-up">
                 <img className="w-fit border rounded-md" src={heroimg} alt="profile" />
             </div>
+
+            
         </div>
 
     )
