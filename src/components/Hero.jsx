@@ -25,7 +25,7 @@ function Hero(){
         <div className=" bg-[#F5F5F5] h-[80vh]  flex flex-col justify-evenly items-center md:h-screen md:flex-row md:justify-center">
 
             <div className="w-24 animate-slide  absolute top-[40%] left-[0] md:w-40 md:top-[30%] md:left-[15%]">
-                <Lottie loop={true} animationData={Cycle}/>
+                <Lottie loop={false} animationData={Cycle}/>
             </div>
             
             <div className="w-[80%] text-center md:w-1/2 md:text-left" data-aos="fade-up">
