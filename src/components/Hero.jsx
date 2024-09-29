@@ -28,7 +28,7 @@ function Hero(){
                 <Lottie loop={true} animationData={Cycle}/>
             </div>
             
-            <div className="w-[80%] text-center md:w-1/2 mt-0" data-aos="fade-up">
+            <div className="w-[80%] text-center md:w-1/2 md:text-left" data-aos="fade-up">
                 <p className="text-xl p-2 font-bold">Hi, I am</p>
                 <h1 className="text-3xl p-2 font-bold md:text-6xl">Naveenkumar</h1>
                 <h3 className=" p-2 font-bold md:text-2xl ">I build things for Web</h3>
