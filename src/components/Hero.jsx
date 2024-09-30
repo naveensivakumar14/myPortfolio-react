@@ -26,12 +26,9 @@ function Hero(){
             <div className="w-24 animate-slide  absolute top-[40%] left-[0] md:w-40 md:top-[30%] md:left-[15%]">
                 <Lottie loop={true} animationData={Cycle}  />
             </div>
-<<<<<<< HEAD
+
 
             {/* Hero Section content */}
-=======
-            
->>>>>>> 3dfcb494e86c67512912439ac8e36c263db65a6a
             <div className="w-[80%] text-center md:w-1/2 md:text-left" data-aos="fade-up">
                 <p className="text-xl p-2 font-bold">Hi, I am</p>
                 <h1 className="text-3xl p-2 font-bold md:text-6xl">Naveenkumar</h1>
