@@ -148,13 +148,13 @@ button:focus-visible {
       transform: translateX(0);
     }
     50% {
-      transform: translateX(100px); /* Moves 100px right */
+      transform: translateX(200px); /* Moves 200px right */
     }
     100% {
-      transform: translateX(400px); /* Back to original position */
+      transform: translateX(300px); /* Back to original position */
     }
   }
   .animate-slide {
-    animation: slide 5s infinite; /* Repeat the animation infinitely */
+    animation: slide 5s infinite;
   }
 }
