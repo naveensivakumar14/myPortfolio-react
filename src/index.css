@@ -142,6 +142,7 @@ button:focus-visible {
     margin: 0;
   }
 
+<<<<<<< HEAD
   /* For lottie cycle aniamtion on small screens*/
   @keyframes slide {
     0% {
@@ -157,4 +158,7 @@ button:focus-visible {
   .animate-slide {
     animation: slide 5s infinite;
   }
+=======
+ 
+>>>>>>> 3dfcb494e86c67512912439ac8e36c263db65a6a
 }
