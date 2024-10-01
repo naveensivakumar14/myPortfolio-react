@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 function Navbar(){
 
-    //state management for clicking toggle button
+  
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -18,7 +18,7 @@ function Navbar(){
             </div>
 
            
-            {/* Desktop navigation */}
+     
             <ul className="justify-around gap-12 font-bold hidden md:flex">
                 <li className="p-2"><Link to="Home"  smooth={true} duration={500}>Home</Link></li>
                 <li className="p-2"><Link to="About"  smooth={true} duration={500}>About</Link></li>
@@ -28,7 +28,7 @@ function Navbar(){
             </ul>
 
           
-            {/* Toggle button */}
+            
             <button onClick={toggleMenu} className="md:hidden" >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8 font-bold">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -36,7 +36,7 @@ function Navbar(){
             </button>
 
 
-          {/* Mobile navigation */}
+        
         <div
           className={`fixed top-16 right-0 h-screen min-w-[40%]  bg-[#021526] text-white flex flex-col items-center gap-4 font-semibold transition-transform duration-500 ease-in-out transform ${
             isOpen ? "translate-x-0" : "translate-x-full"
