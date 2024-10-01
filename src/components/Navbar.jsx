@@ -49,11 +49,7 @@ function Navbar(){
           <li className="list-none w-full text-center p-2"><Link to="Contact"  smooth={true} duration={500}>Contacts</Link></li>
         </div>
 
-            
 
-
-           
-               
         </div>
         
     )
