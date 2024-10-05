@@ -1,7 +1,11 @@
 # Naveenkumar - Portfolio
 
+
+
+
 This is the code repository for my personal portfolio, which showcases my projects and skills as a full-stack developer specialising in the MERN stack. 
 This project uses MongoDB, Express.js, React.js, and Node.js to deliver a dynamic and responsive web application.
+
 
 ## Features
 
