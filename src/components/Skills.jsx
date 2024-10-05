@@ -2,30 +2,36 @@ import React, { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-// Import icons
+//Frontend Icons
 import htmlIcon from '../assets/images/html icon.png';
 import cssIcon from '../assets/images/css icon.png';
 import BootIcon from '../assets/images/bootstrap.png';
 import TailwindIcon from '../assets/images/tailwindcss.png';
 import jsIcon from '../assets/images/js icon.png';
 import reactIcon from '../assets/images/react-icon.png';
+import jQIcon from "../assets/images/jQuery.png";
+import viteIcon from "../assets/images/vite.png"
+
+//Backend Icons
 import nodeIcon from '../assets/images/node-black.png';
 import expressIcon from '../assets/images/express-icon.png';
 import mongoIcon from '../assets/images/mdb-icon.png';
-import githubIcon from '../assets/images/github-icon.png';
-import gitIcon from '../assets/images/Git-icon.png';
-import vsIcon from '../assets/images/vscode-icon.png';
+import npmIcon from "../assets/images/NPM.png"
+import mysqlIcon from "../assets/images/mysql.png";
 import postIcon from '../assets/images/Postman.png';
+import firebsIcon from '../assets/images/Firebase.png';
+
+//Tools Icons
+import vsIcon from '../assets/images/vscode-icon.png';
 import verIcon from '../assets/images/Vercel.png';
 import notionIcon from '../assets/images/Notion-icon.png';
-import firebsIcon from '../assets/images/Firebase.png';
-import jQIcon from "../assets/images/jQuery.png";
-import mysqlIcon from "../assets/images/mysql.png";
+import githubIcon from '../assets/images/github-icon.png';
+import gitIcon from '../assets/images/Git-icon.png';
 import gptIcon from "../assets/images/chatgpt.png";
 import sublimeIcon from "../assets/images/sublime.png"
 import canvaIcon from "../assets/images/canva.png"
-import viteIcon from "../assets/images/vite.png"
-import npmIcon from "../assets/images/NPM.png"
+
+
 
 function Skills() {
   // Initialize AOS for animation on scroll
@@ -116,7 +122,7 @@ function Skills() {
           {activeSkill.map((item) => (
             <div key={item.id} className="p-4 flex flex-col justify-center items-center transform hover:scale-125">
               <img src={item.imageUrl} alt={item.title} className="w-full h-auto md:w-[80%]" data-aos="fade-up" />
-              <h2 className="mt-3 text-sm md:font-semibold" data-aos="zoom-in-up">{item.title}</h2>
+              <h2 className="mt-3 text-xs md:text-sm md:font-semibold" data-aos="zoom-in-up">{item.title}</h2>
             </div>
           ))}
         </div>
