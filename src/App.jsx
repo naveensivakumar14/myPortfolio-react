@@ -7,12 +7,9 @@ import Details from './components/Details'
 import MultipleItems from './components/Works'
 import ContactMe from './components/Contact'
 import Footer from './components/Footer'
-
 import './App.css'
 
-
 function App() {
-
   return (
     <>
       <Navbar/>
