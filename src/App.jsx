@@ -13,7 +13,6 @@ import './App.css'
 
 function App() {
 
-  //apperance App
   return (
     <>
       <Navbar/>
