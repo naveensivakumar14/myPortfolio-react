@@ -1,4 +1,4 @@
-# Naveenkumar - Portfolio
+# Portfolio
 
 ![Thumbnail](https://github.com/naveensivakumar14/myPortfolio-react/blob/main/public/myPortfolio.jpg)
 
