@@ -19,13 +19,12 @@ import postIcon from '../assets/images/Postman.png';
 import verIcon from '../assets/images/Vercel.png';
 import notionIcon from '../assets/images/Notion-icon.png';
 import firebsIcon from '../assets/images/Firebase.png';
-import excelIcon from "../assets/images/sheets.png";
 import jQIcon from "../assets/images/jQuery.png";
 import mysqlIcon from "../assets/images/mysql.png";
 import gptIcon from "../assets/images/chatgpt.png";
 import sublimeIcon from "../assets/images/sublime.png"
 import canvaIcon from "../assets/images/canva.png"
-import viteIcon from "../assets/images/vite.js.png"
+import viteIcon from "../assets/images/vite.png"
 import npmIcon from "../assets/images/NPM.png"
 
 function Skills() {
