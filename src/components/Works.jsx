@@ -79,9 +79,9 @@ function MultipleItems() {
             
       </Slider>
 
-      {/* <div className="flex justify-center items-center mt-14">
+      <div className="flex justify-center items-center mt-14">
       <button className="bg-white px-4 py-2 text-lg font-semibold border-none rounded-sm text-black">Explore</button>
-      </div> */}
+      </div>
 
       
     </div>

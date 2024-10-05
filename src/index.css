@@ -109,6 +109,7 @@ button:focus-visible {
 }
 
 .slick-dots li.slick-active button:before {
+
   color: white; /* Change the color of the active dot */
 }
 

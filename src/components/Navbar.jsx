@@ -14,7 +14,7 @@ function Navbar(){
         
         <div className="bg-[#021526] z-10 text-white py-4 px-10 sticky top-0 shadow-lg flex justify-between items-center w-full">
             <div>
-                <h1 className="text-xl font-bold">PORTFOLIO</h1>
+                <h1 className="text-xl font-bold">Naveen</h1>
             </div>
 
            

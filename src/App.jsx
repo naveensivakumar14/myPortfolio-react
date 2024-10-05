@@ -17,7 +17,6 @@ function App() {
   //apperance App
   return (
     <>
-      
       <Navbar/>
       <div id="Home"><Hero/></div>
       <div id="About"><About/></div>
@@ -25,7 +24,6 @@ function App() {
       <div id="Projects"><MultipleItems/></div>
       <Details/>
       <div id="Contact"><ContactMe/></div>
-      
       <Footer/>
     </>
   )
