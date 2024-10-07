@@ -24,17 +24,17 @@ function ContactMe() {
                   id="subject"
                   type="text"
                   placeholder="Subject"
-                  className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none focus:ring-2 focus:ring-blue-600"
+                  className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none focus:ring-2 focus:ring-green-400"
                 />
                 <textarea
                   id="message"
                   rows="5"
                   placeholder="Say Something"
-                  className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none focus:ring-2 focus:ring-blue-600"
+                  className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none focus:ring-2 focus:ring-green-400"
                 ></textarea>
               </div>
               <button
-                className="border-2 text-md mt-5 rounded-md py-2 px-4 bg-gray-900 hover:bg-blue-700 text-gray-100 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-600"
+                className="border-2 text-md mt-5 rounded-md py-2 px-4 bg-gray-900 hover:bg-green-600 text-gray-100 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-green-400"
               >
                 Send Message
               </button>
