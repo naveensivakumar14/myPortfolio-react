@@ -22,7 +22,7 @@ function Details(){
         <section class="bg-white"  data-aos="fade-up">
             <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                 <div class="font-light text-black sm:text-lg  ">
-                    <h2 class="mb-4 text-2xl text-center md:text-4xl md:text-left tracking-tight font-semibold">Education and Experience</h2>
+                    <h2 class="mb-4 text-2xl text-center md:text-4xl md:text-left tracking-tight font-semibold">Who I am</h2>
                     <p class="font-semibold text-justify mb-3 p-4 md:p-0 md:text-left ">I am an Engineering Graduate specialising in Electrical and Electronics, now transitioning my passion into the exciting field of web development. With 3 years of experience in the customer service domain, I bring a unique blend of technical expertise and client-focused problem-solving to my projects.</p>
                     <p className=" font-semibold px-4 md:py-4 md:px-0">"Your feedback drives innovation—let’s learn from each other and build something extraordinary together.</p>
                 
