@@ -5,9 +5,13 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
+//Lottie Animation Library
+import Lottie from "lottie-react";
+import anime from "../anime.json"
+
 function Details(){
 
-    //useEffect hook for aos 
+//useEffect hook for aos 
    useEffect(()=>{
     AOS.init({duration:2000});
     },[])
@@ -26,10 +30,18 @@ function Details(){
                     <button type="button" class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 mt-6 ml-2"><a href="https://www.linkedin.com/in/naveenksivakumar/" target='_blank'>Let's Connect</a></button>
                     </div>
                 </div>
-                <div class="grid grid-cols-2 gap-4 mt-8 p-4">
+
+                <div className=''>
+                    <Lottie loop={true} animationData={anime}></Lottie>
+                </div>
+
+
+
+                
+                {/* <div class="grid grid-cols-2 gap-4 mt-8 p-4">
                     <img class=" rounded-lg w-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1"/>
                     <img class="mt-4 lg:mt-10 rounded-lg w-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2"/>
-                </div>
+                </div> */}
             </div>
         </section>
         </>
